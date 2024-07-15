@@ -64,6 +64,7 @@ class ViewController: UIViewController {
         isDriving = false
         self.tripStatusLbl.text = "Trip stopped"
         self.overSpeedLbl.text = ""
+        self.isSpeedOverlimited = false
         resetMetrics()
     }
     
